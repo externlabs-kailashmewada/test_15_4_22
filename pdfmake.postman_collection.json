@@ -1,0 +1,37 @@
+{
+	"info": {
+		"_postman_id": "49145892-6527-445a-8ab5-a23339f2cde7",
+		"name": "pdfmake",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "pdf",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n\t\t\t\t\t\"data\":\"some text\"\r\n\t\t\t\t\t\r\n\t\t\t\t\t}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/generate-pdf",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"generate-pdf"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
